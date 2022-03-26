@@ -12,7 +12,7 @@ function playRound(playerSelection, computerSelection){
     }
     
 
-    playerSelection = playerSelection.toLowerCase();
+    playerSelection = playerSelection.toLowerCase().trim();
     console.log(`Computer: ${computerSelection}, User: ${playerSelection}`);
     
     if (playerSelection === 'rock' || playerSelection === 'paper' || playerSelection === 'scissor')
